@@ -1,0 +1,29 @@
+{
+  "name": "fastify-pracice",
+  "version": "1.0.0",
+  "description": "A simple REST API developed using fastify",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ratheshprabakar/Fastify-Learning.git"
+  },
+  "keywords": [
+    "fastify"
+  ],
+  "author": "Rathesh Prabakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ratheshprabakar/Fastify-Learning/issues"
+  },
+  "homepage": "https://github.com/Ratheshprabakar/Fastify-Learning#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fastify": "^3.24.1",
+    "fastify-mongodb": "^4.1.1",
+    "fastify-plugin": "^3.0.0"
+  }
+}
